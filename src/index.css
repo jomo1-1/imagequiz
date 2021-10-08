@@ -6,7 +6,7 @@
 body {
   background: #1C8EF9 !important;
   min-height: 100vh;
-  display: flex;
+  display: block;
   font-weight: 400;
   font-family: 'Fira Sans', sans-serif;
 }
@@ -28,6 +28,9 @@ body, html, .App, #root, .auth-wrapper {
 
 .auth-wrapper {
   display: block;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
 }
 
 .auth-inner {
