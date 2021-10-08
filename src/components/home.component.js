@@ -12,7 +12,7 @@ export default class Home extends Component {
           <>
           <Container fluid>
             <Row>
-              <h1>Hello World!jjjjjjj</h1>
+              <h1>Welcome!</h1>
             </Row>
             <Row>
               {flowers.map((flower) => (

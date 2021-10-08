@@ -16,7 +16,7 @@ function App() {
 
           <Link className="navbar-brand" to={"/home"}>&#127800; Flowers</Link>
 
-          <div className="navbar-collapse" id="responsive-navbar-nav" aria-controls="basic-navbar-nav">
+          <div className="navbar-collapse collapse" id="responsive-navbar-nav" aria-controls="basic-navbar-nav">
 
             <ul className="navbar-nav ml-auto">
             <li className="nav-item">
@@ -40,9 +40,10 @@ function App() {
       <div className="auth-wrapper">
         <div className="auth-inner">
           <Switch>
-            <Route exact path='./' component={Home} />
-            <Route path="./sign-in" component={Login} />
-            <Route path="./sign-up" component={SignUp} />
+            <Route exact path='/' component={Home} />
+            <Route path="/sign-in" component={Login} />
+            <Route path="/sign-up" component={SignUp} />
+            <Route path="/home" component={Home} />
           </Switch>
         </div>
       </div>
