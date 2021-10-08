@@ -48,6 +48,7 @@ body, html, .App, #root, .auth-wrapper {
 }
 
 .auth-wrapper h3 {
+  display: block;
   text-align: center;
   margin: 0;
   line-height: 1;
