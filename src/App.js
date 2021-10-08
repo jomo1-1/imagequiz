@@ -2,10 +2,10 @@ import React from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { Nav, Navbar} from 'react-bootstrap'
 import Login from "./components/login.component";
 import SignUp from "./components/signup.component";
 import Home from "./components/home.component";
+import { Nav, Navbar} from 'react-bootstrap'
 
 function App() {
   return (<Router>
@@ -40,7 +40,7 @@ function App() {
       <div className="auth-wrapper">
         <div className="auth-inner">
           <Switch>
-            <Route exact path='/home' component={Home} />
+            <Route exact path='/' component={Home} />
             <Route path="/sign-in" component={Login} />
             <Route path="/sign-up" component={SignUp} />
           </Switch>
